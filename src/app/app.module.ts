@@ -1,3 +1,4 @@
+import { GaleriaPage } from './../pages/galeria/galeria';
 import { ExplorarPage } from './../pages/explorar/explorar';
 import { CalificamePage } from './../pages/calificame/calificame';
 import { MenucalificamePage } from './../pages/menucalificame/menucalificame';
@@ -16,7 +17,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     MenucalificamePage,
     CalificamePage,
-    ExplorarPage
+    ExplorarPage,
+    GaleriaPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     MenucalificamePage,
     CalificamePage,
-    ExplorarPage
+    ExplorarPage,
+    GaleriaPage
   ],
   providers: [
     StatusBar,

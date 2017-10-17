@@ -1,9 +1,8 @@
-import { GaleriaPage } from './../galeria/galeria';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the CalificamePage page.
+ * Generated class for the GaleriaPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,18 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-calificame',
-  templateUrl: 'calificame.html',
+  selector: 'page-galeria',
+  templateUrl: 'galeria.html',
 })
-export class CalificamePage {
+export class GaleriaPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CalificamePage');
+    console.log('ionViewDidLoad GaleriaPage');
   }
- galeria(){
-    this.navCtrl.push(GaleriaPage)
-  }
+
 }
